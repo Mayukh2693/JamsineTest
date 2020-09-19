@@ -1,0 +1,29 @@
+{
+  "name": "mongodb-sdk",
+  "version": "1.0.0",
+  "description": "A utility library for MongoDB",
+  "main": "utils.js",
+  "scripts": {
+    "test": "node ./spec/testSpec.js"
+  },
+  "keywords": [
+    "mongodb-nodejs-sdk",
+    "mongodb-node",
+    "mongodb-sdk",
+    "mongodb",
+    "sdk",
+    "promise"
+  ],
+  "author": "Ormae LLP",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^2.8.8",
+    "@types/node": "^8.0.47",
+    "@types/selenium-webdriver": "^3.0.16",
+    "bluebird": "3.5.0",
+    "fs": "0.0.1-security",
+    "jasmine": "^2.99.0",
+    "jasmine-node": "^3.0.0",
+    "mongodb": "2.2.29"
+  }
+}
