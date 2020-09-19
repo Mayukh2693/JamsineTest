@@ -11,7 +11,9 @@
 
 ## Test Cases
 
-`Assumption: Initially the DB is empty`
+`Assumption:` 
+- Initially the DB is empty
+- collectionName needs to be updated
 
 - TC1- Verifies that empty DB returns null count
 - TC2- Verifies non-null value returned when documents are added to DB
